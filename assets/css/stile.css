@@ -229,3 +229,95 @@ footer {
 footer a {
     color: fuchsia;
 }
+
+@media screen and (min-width:768px) {
+    header img {
+        display: inline-block;
+        float: left;
+    }
+    
+    header {
+        padding-bottom: 3.1rem;
+    }
+    header p {
+        text-align: right;
+        margin-right: 2rem;
+        font-size: 1.5rem;
+    }
+    nav {
+        text-align: right;
+        margin-right: 4rem;
+        font-size: 1.5rem;
+    }
+    table {
+        margin: 2rem auto;
+    }
+    main iframe {
+        float: left;
+        display: inline-block;
+        width: 45%;
+        margin-left: 2rem;
+    }
+    main section {
+        float: right;
+        display: inline-block;
+        width: 45%;
+        border-radius: 20px;
+        margin-top: 0.2rem;
+        height: 15rem;
+        margin-right: 2rem;
+    }
+    main aside div {
+        display: inline-block;
+        width: 32%;
+    }
+}
+
+@media screen  and (min-width:1024px) {
+    body {
+        font-size: 1.8rem;
+        line-height: ;
+    }
+
+    header {
+        position: unset;
+    }
+
+    main article iframe {
+        width: 40%;
+        height: 20%;
+}
+
+@media screen  and (min-width:1200px) {
+    body {
+        font-size: 2rem;
+    }
+}
+
+media print {
+    header {
+        display: none;
+    }
+    aside {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+    #aiuto {
+        display:none
+    }
+    .social {
+        display: none;
+    }
+    .toTop {
+        display: none;
+    }
+    main {
+        box-shadow: none
+    }
+    body {
+        font-size: 2.2rem; 
+        line-height: 1.55;
+    }
+}
