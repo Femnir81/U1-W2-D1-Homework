@@ -278,6 +278,9 @@ footer a {
     header {
         position: unset;
     }
+    iframe, iframe~section {
+        height: 300px;
+    }
 }
 
 @media screen  and (min-width:1200px) {
@@ -296,10 +299,6 @@ footer a {
     header img {
         width: 292px;
         height: 70px;
-    }
-
-    main section fieldset {
-        padding-bottom: 2rem;
     }
 }
 
@@ -329,4 +328,8 @@ footer a {
         font-size: 2.2rem; 
         line-height: 1.55;
     }
+    iframe {
+        display: none;
+    }
+    
 }
