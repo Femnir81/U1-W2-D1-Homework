@@ -232,7 +232,6 @@ footer a {
 
 @media screen and (min-width:768px) {
     header img {
-        display: inline-block;
         float: left;
     }
     
@@ -254,13 +253,11 @@ footer a {
     }
     main iframe {
         float: left;
-        display: inline-block;
         width: 45%;
         margin-left: 2rem;
     }
     main section {
         float: right;
-        display: inline-block;
         width: 45%;
         border-radius: 20px;
         margin-top: 0.2rem;
@@ -299,6 +296,10 @@ footer a {
     header img {
         width: 292px;
         height: 70px;
+    }
+
+    main section fieldset {
+        padding-bottom: 2rem;
     }
 }
 
