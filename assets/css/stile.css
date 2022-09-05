@@ -276,25 +276,33 @@ footer a {
 @media screen  and (min-width:1024px) {
     body {
         font-size: 1.8rem;
-        line-height: ;
+    }
+
+    header {
+        position: unset;
+    }
+}
+
+@media screen  and (min-width:1200px) {
+    body {
+        font-size: 1.8rem;
     }
 
     header {
         position: unset;
     }
 
-    main article iframe {
-        width: 40%;
-        height: 20%;
-}
+    header p,nav {
+        font-size: 1.8rem;
+    }
 
-@media screen  and (min-width:1200px) {
-    body {
-        font-size: 2rem;
+    header img {
+        width: 292px;
+        height: 70px;
     }
 }
 
-media print {
+@media print {
     header {
         display: none;
     }
